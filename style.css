@@ -4,9 +4,22 @@ body {
 h1 {
     color: #78b9ba;
 }
+h2 {
+    color: #979f84
+}
 a {
     color: #909cb2;
 }
 p {
     color: white;
+}
+.indexLink {
+    text-decoration: none;
+}
+.contentsBox {
+    width: 100px;
+    border: 1px solid;
+    float: left;
+}
+.introBox {
 }
