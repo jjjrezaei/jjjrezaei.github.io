@@ -1,0 +1,35 @@
+this was originally my css folder but it doesnt work with jekyll lmao i love this
+
+body {
+    background-color: #2d1f38;
+}
+h1 {
+    color: #78b9ba;
+}
+h2 {
+    color: #979f84
+}
+a {
+    color: #909cb2;
+}
+p {
+    color: white;
+}
+.headerLinks {
+    text-decoration: none;
+}
+.sidebarBox {
+    width: 49%;
+    border: 1px solid;
+    float: right;
+    display: inline;
+
+}
+.introBox {
+    width: 51%;
+    border: 1px solid;
+    float:left;
+}
+.contactInfo {
+    display: inline;
+}
