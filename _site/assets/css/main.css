@@ -4,9 +4,22 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
-.sidebarBox {
+.sidebarNav {
   float: left;
-  width: 100px;
+  width: 90px;
+  list-style-type: none;
+  height: 700px;
+  margin-left: -22px;
+}
+.sidebarNav a {
+  color: white;
+  text-decoration: none;
+}
+
+.header-contact-links {
+  text-decoration: none;
+  color: white;
+  float: right;
 }
 
 /*# sourceMappingURL=main.css.map */
