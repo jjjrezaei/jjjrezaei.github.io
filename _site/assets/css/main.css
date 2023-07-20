@@ -6,10 +6,11 @@ body {
 
 .sidebarNav {
   float: left;
-  width: 90px;
+  width: 100px;
   list-style-type: none;
   height: 700px;
   margin-left: -22px;
+  line-height: 25px;
 }
 .sidebarNav a {
   color: white;
@@ -17,9 +18,15 @@ body {
 }
 
 .header-contact-links {
-  text-decoration: none;
   color: white;
   float: right;
+  display: flex;
+  list-style-type: none;
+}
+.header-contact-links a {
+  text-decoration: none;
+  color: white;
+  padding-right: 15px;
 }
 
 .projects-skills-button {
@@ -56,7 +63,7 @@ body {
   font-weight: 400;
   line-height: 20px;
   min-width: 500px;
-  max-width: 1000px;
+  max-width: 1200px;
   min-height: 30px;
   overflow: hidden;
   padding: 0px;
@@ -67,31 +74,6 @@ body {
 }
 .projects-background-button a {
   color: white;
-}
-
-.button-3 {
-  appearance: none;
-  background-color: #2ea44f;
-  border: 1px solid rgba(27, 31, 35, 0.15);
-  border-radius: 6px;
-  box-shadow: rgba(27, 31, 35, 0.1) 0 1px 0;
-  box-sizing: border-box;
-  color: #fff;
-  cursor: pointer;
-  display: inline-block;
-  font-family: -apple-system, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
-  font-size: 14px;
-  font-weight: 600;
-  line-height: 20px;
-  padding: 6px 16px;
-  position: relative;
-  text-align: center;
-  text-decoration: none;
-  user-select: none;
-  -webkit-user-select: none;
-  touch-action: manipulation;
-  vertical-align: middle;
-  white-space: nowrap;
 }
 
 /*# sourceMappingURL=main.css.map */

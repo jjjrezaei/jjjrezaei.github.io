@@ -13,10 +13,12 @@ body {
 
 .sidebarNav{
   float: left;
-  width: 90px;
+  width: 100px;
   list-style-type: none;
   height: $bodyHeight; //I didnt do this by choice theres a bug that doesnt let you use percentages but this leaves bottom of sidebar blank without adding scrollbars for blank space.... its a bug or im dumb lol
   margin-left: -22px;
+  line-height: 25px;
+
   a {
     color: white;
     text-decoration: none;
@@ -24,9 +26,15 @@ body {
 }
 
 .header-contact-links {
-  text-decoration: none;
   color: white;
   float: right;
+  display: flex;
+  list-style-type: none;
+    a {
+      text-decoration: none;
+      color: white;
+      padding-right: 15px;
+    }
 }
 
 .projects-skills-button {
@@ -63,7 +71,7 @@ body {
   font-weight: 400;
   line-height: 20px;
   min-width: 500px;
-  max-width: 1000px;
+  max-width: 1200px;
   min-height: 30px;
   overflow: hidden;
   padding: 0px;
@@ -74,29 +82,4 @@ body {
   a {
     color: white;
   }
-}
-
-.button-3 {
-  appearance: none;
-  background-color: #2ea44f;
-  border: 1px solid rgba(27, 31, 35, .15);
-  border-radius: 6px;
-  box-shadow: rgba(27, 31, 35, .1) 0 1px 0;
-  box-sizing: border-box;
-  color: #fff;
-  cursor: pointer;
-  display: inline-block;
-  font-family: -apple-system,system-ui,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
-  font-size: 14px;
-  font-weight: 600;
-  line-height: 20px;
-  padding: 6px 16px;
-  position: relative;
-  text-align: center;
-  text-decoration: none;
-  user-select: none;
-  -webkit-user-select: none;
-  touch-action: manipulation;
-  vertical-align: middle;
-  white-space: nowrap;
 }
