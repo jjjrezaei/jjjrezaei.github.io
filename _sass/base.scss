@@ -13,7 +13,7 @@ body {
 
 .sidebarNav{
   float: left;
-  width: 150px;
+  width: 100px;
   list-style-type: none;
   height: $bodyHeight; //I didnt do this by choice theres a bug that doesnt let you use percentages but this leaves bottom of sidebar blank without adding scrollbars for blank space.... its a bug or im dumb lol
   margin-left: -22px;
@@ -77,7 +77,6 @@ body {
   padding: 0px;
   padding-left: 20px;
   padding-right: 20px;
-  padding-bottom: 10px;
   text-align: left;
   vertical-align: middle;
   a {
