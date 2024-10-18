@@ -73,10 +73,11 @@ body {
   min-width: 500px;
   max-width: 1200px;
   min-height: 30px;
-  overflow: visible;
+  overflow: hidden;
   padding: 0px;
   padding-left: 20px;
   padding-right: 20px;
+  padding-bottom: 10px;
   text-align: left;
   vertical-align: middle;
   a {
