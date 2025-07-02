@@ -7,7 +7,7 @@ layout: default
 <h3 style="color: lightslategray;";> Semm's Portfolio Website </h3>
 <p>I began this project in September, 2024 with gathering the requirements. I needed a search bar that could search through all of Professor Semm's PDFs and return the documents that contained those words. I also wanted to give him the ability to upload, preview, and download his files for editing.
 </p>
-<p>Semm had over 100 files, easily. The first step was to make everything neat in WSL. I copied all his files into WSL and ensured I only had the files that would be relevant to his class. This meant .doc and docx (the vast majority of them), .pdf, .html, and .txt only in one large folder. I wrote python code using python-docx that extracted the text of all the .docx files. I realized that python-docx is not compatible with the older .doc file type, so I used code I found online in Microsoft VBA to convert all .doc files to .docx.
+<p>Semm has over 1000 files in various different formats, so I cleaned it all to only keep doc, docx, pdf, html, and txt. I then used code I found online in Microsoft VBA to convert all .doc files to docx due to compatibility issues with the older .doc file type.
 </p>
-<p>When this was done, I copied all the files that contained a certain word in the title into certain folders. Philosophy, religion, literature, etc. I have also begun attempting to run this in Digital Ocean that is funded via Github Education. This is where I am at as of October 18, 2024. Digital Ocean is having a difficult time reading the bare bones Flask code, which is likely due to my own lack of in-depth knowledge of the website.
+<p>In the summer, my friend Emrys joined me in the creation of this website. He wrote front-end code and created search-bar functionality with PHP. I set up Nginx, SSL certification with Certbot, and registered our domain name with Porkbun in the Digital Ocean droplet funded by the GitHub Education Student Developer pack. 
 </p>
