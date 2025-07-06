@@ -1,5 +1,5 @@
 body {
-  background: #0d1330;
+  background: #828698;
   color: white;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
@@ -33,7 +33,7 @@ body {
   align-items: center;
   background-color: #84e1ff;
   border: 0;
-  border-radius: 100px;
+  border-radius: 75px;
   box-sizing: border-box;
   color: black;
   display: inline-flex;
@@ -42,8 +42,6 @@ body {
   justify-content: center;
   line-height: 30px;
   min-height: 30px;
-  width: 70px;
-  overflow: hidden;
   padding: 0px;
   padding-left: 20px;
   padding-right: 20px;
